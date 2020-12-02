@@ -1,0 +1,78 @@
+  .game {
+    cursor: url('https://t0rnato.github.io/shooter/guncursor.png'), auto;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+  }
+
+  .game button {
+    display: inline;
+    position: absolute;
+    transition: left .5s cubic-bezier(.42, -0.3, .78, 1.25), top .5s cubic-bezier(.42, -0.3, .78, 1.25);
+    background: url('https://t0rnato.github.io/shooter/target.jpg') -2px -2px no-repeat;
+    width: 50px;
+    height: 50px;
+  }
+  #divi {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+  }
+#score {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  position: absolute;
+  left: 275px;
+  top: 25px;
+  background-color: white;
+  text-align: center;
+  vertical-align: center;
+  font-size: 40px;
+}
+#menu {
+  width: 600px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+#playhold {
+  width: 100px;
+  height: 40px;
+  left: 250px;
+  top: 400px;
+  position: absolute;
+  background-color: lightyellow;
+}
+#play {
+  font-size: 25px;
+  top: 10px;
+  left: 18px;
+  position: absolute;
+  background-color: lightyellow;
+  text-align: center;
+}
+#time {
+  width: 30px;
+  height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  left: 330px;
+  top: 55px;
+  background-color: white;
+  text-align: center;
+  vertical-align: center;
+  font-size: 25px;
+}
+#highscore {
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  top: 570px;
+  background-color: white;
+  text-align: center;
+  vertical-align: center;
+  font-size: 25px;
+}
