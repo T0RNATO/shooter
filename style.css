@@ -1,23 +1,25 @@
-  .game {
-    cursor: url('https://t0rnato.github.io/shooter/guncursor.png'), auto;
-    margin: 0px;
-    padding: 0px;
-    border: 1px solid black;
-  }
-
-  .game button {
-    display: inline;
-    position: absolute;
-    transition: left .5s cubic-bezier(.42, -0.3, .78, 1.25), top .5s cubic-bezier(.42, -0.3, .78, 1.25);
-    background: url('https://t0rnato.github.io/shooter/target.jpg') -2px -2px no-repeat;
-    width: 50px;
-    height: 50px;
-  }
-  #divi {
-    width: 600px;
-    height: 600px;
-    position: absolute;
-  }
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.game {
+  cursor: url('https://t0rnato.github.io/shooter/guncursor.png'), auto;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+}
+.game button {
+  display: inline;
+  position: absolute;
+  transition: left .5s cubic-bezier(.42, -0.3, .78, 1.25), top .5s cubic-bezier(.42, -0.3, .78, 1.25);
+  background: url('https://t0rnato.github.io/shooter/target.jpg') -2px -2px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+#divi {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+}
 #score {
   width: 50px;
   height: 50px;
