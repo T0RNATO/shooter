@@ -1,4 +1,4 @@
-div {
+* {
   font-family: 'Josefin Sans', sans-serif;
 }
 .game {
@@ -10,7 +10,7 @@ div {
 .game button {
   display: inline;
   position: absolute;
-  transition: left .5s cubic-bezier(.42, -0.3, .78, 1.25), top .5s cubic-bezier(.42, -0.3, .78, 1.25);
+  transition: left .5s, top .5s;
   background: url('https://t0rnato.github.io/shooter/target.jpg') -2px -2px no-repeat;
   width: 50px;
   height: 50px;
@@ -37,7 +37,6 @@ div {
   height: 600px;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  border: 1px solid black;
 }
 #playhold {
   width: 100px;
