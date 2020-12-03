@@ -10,7 +10,7 @@
 .game button {
   display: inline;
   position: absolute;
-  transition: left .5s, top .5s;
+  transition: left .1s, top .1s;
   background: url('https://t0rnato.github.io/shooter/target.jpg') -2px -2px no-repeat;
   width: 50px;
   height: 50px;
