@@ -9,15 +9,16 @@ for (i = 0; i < document.getElementsByTagName("button").length; i++) {
 for (i = 0; i < document.getElementsByTagName("button").length; i++) {
   document.getElementsByTagName("button")[i].style.top = String(Math.floor(Math.random() * size)) + "px";
 }
-function move() {
+function move(me) {
   score = score + 1;
   document.getElementById("score").innerText = score;
+  me.style.top = String(Math.floor(Math.random() * size)) + "px";
+  me.style.left = String(Math.floor(Math.random() * size)) + "px";
 }
 function moveall() {
   for (i = 0; i < document.getElementsByTagName("button").length; i++) {
+    document.getElementsByTagName("button")[i].style.display = 'inline';
     document.getElementsByTagName("button")[i].style.left = String(Math.floor(Math.random() * size)) + "px";
-  }
-  for (i = 0; i < document.getElementsByTagName("button").length; i++) {
     document.getElementsByTagName("button")[i].style.top = String(Math.floor(Math.random() * size)) + "px";
   }
 }
