@@ -37,7 +37,7 @@ function countdown() {
     clearInterval(timer);
     clearInterval(movevar);
     document.getElementById("menu").style.display = 'inline';
-    if (score > document.getElementById("highscore").innerText.substring(5,10)) {
+    if (score > document.getElementById("highscore").innerText.substring(4,10)) {
       document.getElementById("highscore").innerText = "HS: " + score;
     }
   }
