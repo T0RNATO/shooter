@@ -3,6 +3,7 @@ var size = 550;
 var score = 0;
 var timer;
 var movevar;
+document.getElementById("highscore").innerText = "HS: " + document.cookie;
 for (i = 0; i < document.getElementsByTagName("button").length; i++) {
   document.getElementsByTagName("button")[i].style.left = String(Math.floor(Math.random() * size)) + "px";
 }
@@ -39,6 +40,7 @@ function countdown() {
     document.getElementById("menu").style.display = 'inline';
     if (score > document.getElementById("highscore").innerText.substring(4,10)) {
       document.getElementById("highscore").innerText = "HS: " + score;
+      document.cookie = `highscore=${score}`;
     }
   }
 }
