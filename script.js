@@ -40,10 +40,7 @@ function countdown() {
     document.getElementById("menu").style.display = 'inline';
     if (score > document.getElementById("highscore").innerText.substring(4,10)) {
       document.getElementById("highscore").innerText = "HS: " + score;
-      document.cookie = `highscore=${score};path=/`;
+      document.cookie = `highscore=${score}`;
     }
   }
-}
-function delcookie() {
-  document.cookie = "highscore=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 }
