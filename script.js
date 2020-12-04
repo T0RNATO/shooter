@@ -43,4 +43,4 @@ function countdown() {
     }
   }
 }
-document.getElementById("highscore").innerText = "HS: " + document.cookie;
+document.getElementById("highscore").innerText = "HS: " + document.cookie.substring(10,15);
