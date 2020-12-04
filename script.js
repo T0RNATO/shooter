@@ -23,6 +23,7 @@ function moveall() {
   }
 }
 function start() {
+  document.getElementById("highscore").innerText = "HS: " + document.cookie.substring(10,15);
   document.getElementById("menu").style.display = 'none';
   moveall();
   score = 0;
@@ -43,4 +44,3 @@ function countdown() {
     }
   }
 }
-document.getElementById("highscore").innerText = "HS: " + document.cookie.substring(10,15);
